@@ -1,223 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="figma.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPLG — SMKN 4 Tasikmalaya</title>
+<link rel="stylesheet" href="figma.css">
 </head>
 <body>
-    <ul>
-        <div class="kotak">
-        <li><img src="IMG_8115.PNG" alt="" height="40px"></li>
-        <li><a href="#beranda">beranda</a></li>
-        <li><a href="#profil">profil</a></li>
-        <li><a href="#kurikulum">kurikulum</a></li>
-        <li><a href="#pengajar">pengajar</a></li>
-        <li><a href="#fasilitas">fasilitas</a></li>
-        <li><a href="#kontak">kontak</a></li>
-        </div>
+
+<nav class="navbar">
+  <div class="kotak">
+    <div class="brand">
+      <img src="IMG_8115.PNG" alt="Logo SMKN 4 Tasikmalaya" onerror="this.style.display='none'">
+      <span>PPLG · SMKN 4 Tasikmalaya</span>
+    </div>
+    <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" id="navToggle"><span></span></button>
+    <ul class="navlinks" id="navLinks">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#kurikulum">Kurikulum</a></li>
+      <li><a href="#pengajar">Pengajar</a></li>
+      <li><a href="#fasilitas">Fasilitas</a></li>
+      <li><a href="#kontak">Kontak</a></li>
     </ul>
-    <section class="luar-content" id="beranda">
-    <div class="luar">
-    <div class="beranda">
-        <div class="text">
-        <h1>Pengembangan Perangkat Lunak Dan Gim</h1>
-        <p>PPLG adalah singkatan dari Rekayasa Perangkat lunak dan gim , PPLG adalah salah satu bidang profesi dan juga mata pelajaran<br>yang mempelajari tentang pengembangan perangkat perangkat lunak termasuk dalam pembuatannya , pemeliharaan hingga<br>menejemen organisasi dan menejemen kualitasnya. </p>
-        <div class="selengkap">
-            <button type="submit">Selanjutnya</button>
-        </div>
-         </div>
-         
-        
-        <div class="laptop">
-        <img src="Personal-Computer-PNG-Picture 1.png" alt="">
-        </div>
+  </div>
+</nav>
+
+<!-- ============ BERANDA ============ -->
+<section class="hero" id="beranda">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="hero-eyebrow">Program Keahlian</span>
+      <h1>Pengembangan Perangkat Lunak dan Gim</h1>
+      <p>PPLG (Pengembangan Perangkat Lunak dan Gim) adalah bidang profesi sekaligus mata pelajaran yang mempelajari pengembangan perangkat lunak — mulai dari pembuatan, pemeliharaan, hingga manajemen organisasi dan kualitasnya.</p>
+      <div class="hero-actions">
+        <a href="#profil" class="btn btn-primary">Selanjutnya</a>
+        <a href="#kontak" class="btn btn-ghost">Hubungi Kami</a>
+      </div>
     </div>
-</div>
+    <div class="hero-visual">
+      <div class="glow"></div>
+      <img src="Personal-Computer-PNG-Picture 1.png" alt="Ilustrasi komputer" onerror="this.style.display='none'">
+    </div>
+  </div>
 </section>
-<section class="profil-content" id="profil">
-    <div class="profil">
-        <div class="history">
-        <h1>SEJARAH</h1>
-        <p>didirikan sejak tahun 2014 dengan nama rpl (Rekayasa Perangkat Lunak)<br>dengan angkatan pertama sebanyak 2 kelas tahun ke tahun bertambah 3 kelas<br>sampai 4 dan sudah meluluskan sebanyak 7 angkatan kaprog saat itu pak taufik<br>hidayat s.com dan kepala kompetensi rpl deni ridwan st s.com jumlah guru dulu<br>5 pada tahun 2022 berubah menjadi program keahlian PPLG memiliki 2 kemampuan , <br>yaitu software dan gim </
-        </div>
-        <div class="vision">
-        <h1>VISI MISI</h1>
-        <p>VISI: dengan berlandaskan iman dan taqwa terwujudnya lulusan yang cakap<br>dalam bidang perangkat lunak dan gim<br>MISI : menyelanggarakan pembelajaran sesuai dengan aspek aspek pengetahuan<br>keterampilan sikap sosia dan keterampilan yang dilandasi keimanan</p>
-        <div class="seleng">
-            <button type="submit">Selanjutnya</button>
-        </div>
-        </div>
-        </div>
+
+<!-- ============ PROFIL ============ -->
+<section class="section bg-mint" id="profil">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Profil Program</h2>
+      <p>Perjalanan dan arah kompetensi keahlian PPLG.</p>
     </div>
+    <div class="profil-grid">
+      <div class="info-card">
+        <h3>Sejarah</h3>
+        <p>Didirikan sejak tahun 2014 dengan nama RPL (Rekayasa Perangkat Lunak), angkatan pertama terdiri dari 2 kelas dan bertambah menjadi 3–4 kelas dari tahun ke tahun. Kaprog saat itu adalah Bapak Taufik Hidayat, S.Kom, bersama Kepala Kompetensi Deni Ridwan, S.T., S.Kom, dengan 5 orang guru pengajar.</p>
+        <p>Sejak tahun 2022, program ini berubah nama menjadi PPLG dan telah meluluskan 7 angkatan, dengan dua peminatan: <strong>Software</strong> dan <strong>Gim</strong>.</p>
+      </div>
+      <div class="info-card">
+        <h3>Visi &amp; Misi</h3>
+        <p><strong>Visi:</strong> Berlandaskan iman dan takwa, mewujudkan lulusan yang cakap dalam bidang perangkat lunak dan gim.</p>
+        <p><strong>Misi:</strong> Menyelenggarakan pembelajaran sesuai aspek pengetahuan, keterampilan, dan sikap sosial yang dilandasi keimanan.</p>
+      </div>
+    </div>
+  </div>
 </section>
-<section class="kurikulum-content" id="kurikulum">
-    <div class="kurikulum">
-        <div class="kotak3">
-            <h1>KURIKULUM</h1>
-            <p>Mata pelajaran sesuai dengan apa yang sedang dipelajari oleh kelas X , XI , dan XII PPLG<br>pada tinggkat XI dan XII mempelajari mapel kejuruan ada perubahan peningkatan menjadi<br>pembelajaran teaching factory yang mengadopsi industri/Tech.Company</p>
-        </div>
+
+<!-- ============ KURIKULUM ============ -->
+<section class="section bg-white" id="kurikulum">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Kurikulum</h2>
     </div>
+    <p class="kurikulum-lead">Mata pelajaran disesuaikan dengan tingkat kelas X, XI, dan XII. Pada tingkat XI dan XII, mata pelajaran kejuruan mengalami peningkatan menjadi pembelajaran <em>teaching factory</em> yang mengadopsi pola kerja industri dan tech company.</p>
+    <div class="tier-grid">
+      <div class="tier-card">
+        <span class="tier-num">Kelas X</span>
+        <h3>Dasar Kejuruan</h3>
+        <p>Membangun fondasi logika pemrograman, dasar desain, dan pengenalan alur kerja pengembangan perangkat lunak.</p>
+      </div>
+      <div class="tier-card">
+        <span class="tier-num">Kelas XI</span>
+        <h3>Produksi &amp; Kejuruan Lanjut</h3>
+        <p>Pendalaman kompetensi software dan gim melalui proyek terarah, mulai mengadopsi ritme kerja tim industri.</p>
+      </div>
+      <div class="tier-card">
+        <span class="tier-num">Kelas XII</span>
+        <h3>Teaching Factory</h3>
+        <p>Praktik kerja menyerupai tech company sesungguhnya, memproduksi produk nyata sebagai bekal kesiapan kerja.</p>
+      </div>
+    </div>
+  </div>
 </section>
-<section class="pengajar-content" id="pengajar">
-<div class="pengajar">
-    <h1>PENGAJAR</h1>
-    <div class="atur">
-    <div class="bloka">
-         <div class="wadah">
-        <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.00.jpeg" alt="" height="150px">
-</div>
-    <p>Andi Moh Permani<br>,S.KOM<br>Dasar dasar kejuruan</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.00 (1).jpeg" alt="" height="150px">
+
+<!-- ============ PENGAJAR ============ -->
+<section class="section bg-mint" id="pengajar">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Pengajar</h2>
+      <p>Tenaga pendidik yang membimbing siswa PPLG.</p>
     </div>
-    <p>Imas Masruroh<br>,S.T<br>Dasar dasar kejuruan</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.00 (2).jpeg" alt="" height="150px">
+    <div class="teacher-grid">
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.00.jpeg" alt="Andi Moh Permani" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>AP</span>'"></div><h4>Andi Moh Permani, S.Kom</h4><span>Dasar-dasar Kejuruan</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.00 (1).jpeg" alt="Imas Masruroh" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>IM</span>'"></div><h4>Imas Masruroh, S.T</h4><span>Dasar-dasar Kejuruan</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.00 (2).jpeg" alt="Zul Taufiq" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>ZT</span>'"></div><h4>Zul Taufiq, S.T</h4><span>Kabeng</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.01.jpeg" alt="Taufik Hidayat" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>TH</span>'"></div><h4>Taufik Hidayat, S.Kom</h4><span>Kaprog</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.01 (1).jpeg" alt="Sri Agustina" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>SA</span>'"></div><h4>Sri Agustina</h4><span>IPAS</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.01 (2).jpeg" alt="Siti Mustika" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>SM</span>'"></div><h4>Siti Mustika</h4><span>Bahasa Sunda</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.02.jpeg" alt="Deni Maulana" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>DM</span>'"></div><h4>Deni Maulana, S.T</h4><span>Informatika</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.02 (1).jpeg" alt="Lisna Windi Nurhuda" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>LN</span>'"></div><h4>Lisna Windi Nurhuda</h4><span>Penjaskes</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.02 (2).jpeg" alt="Adi Lasan" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>AL</span>'"></div><h4>Adi Lasan, S.T</h4><span>Produktif Kelas XII</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.03.jpeg" alt="Lisye Mustika Inggriani" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>LI</span>'"></div><h4>Lisye Mustika Inggriani</h4><span>Dasar-dasar Kejuruan</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.03 (1).jpeg" alt="Suminar" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>SU</span>'"></div><h4>Suminar, S.Kom, M.Kom</h4><span>PKK</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.04.jpeg" alt="Bintang Anugrahing Widhi" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>BW</span>'"></div><h4>Bintang Anugrahing Widhi, S.T</h4><span>Teaching Factory</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.04 (1).jpeg" alt="Tini Gantini" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>TG</span>'"></div><h4>Tini Gantini, S.P</h4><span>PPKn</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.06.jpeg" alt="Ari Yanuar" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>AY</span>'"></div><h4>Ari Yanuar, S.Pd</h4><span>PPKn</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.05 (1).jpeg" alt="Herlina Pratama" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>HP</span>'"></div><h4>Herlina Pratama, S.Pd</h4><span>Bahasa Inggris</span></div>
+
+      <div class="teacher"><div class="teacher-photo"><img src="WhatsApp Image 2024-11-06 at 12.00.05.jpeg" alt="Arip" onerror="this.parentElement.innerHTML='<span class=&quot;initials&quot;>AR</span>'"></div><h4>Arip, S.T, M.Kom</h4><span>Bahasa Inggris</span></div>
+
     </div>
-    <p>Zul Taufiq<br>,S.T<br>Kabeng</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.01.jpeg" alt="" height="150px">
-    </div>
-    <p>Taufik Hidayat<br>,S.KOM<br>Kaprog</p>
-</div>
-</div>
-<div class="blokb">
-    <div class="wadah">
-        <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.01 (1).jpeg" alt="" height="150px">
-    </div>
-    <p>Sri Agustina<br>Ipas</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.01 (2).jpeg" alt="" height="150px">
-    </div>
-    <p>Siti Mustika<br>Bahasa sunda</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.02.jpeg" alt="" height="150px">
-    </div>
-    <p>Deni Maulana<br>,S.T<br>Informatika</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.02 (1).jpeg" alt="" height="150px">
-    </div>
-    <p>Lisna Windi<br>Nurhuda<br>Penjaskes</p>
-</div>
-</div>
-<div class="blokc">
-    <div class="wadah">
-        <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.02 (2).jpeg" alt="" height="150px">
-    </div>
-    <p>Adi Lasan<br>,S.T<br>produktif kelas XII</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.03.jpeg" alt="" height="150px">
-    </div>
-    <p>Lisye Mustika<br>Inggriani<br>Dasar dasar kejuruan</p>
-</div><div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.03 (1).jpeg" alt="" height="150px">
-    </div>
-    <p>Suminar<br>,S.COM.M.KOM<br>PKK</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.04.jpeg" alt="" height="150px">
-    </div>
-    <p>Bintang Anugrahing<br>Widhi,S.T<br>Teaching fictory</p>
-</div>
-</div>
-<div class="blokd">
-    <div class="wadah">
-        <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.04 (1).jpeg" alt="" height="150px">
-    </div>
-    <p>Tini Gantini<br>,S.P<br>Ppkn</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.06.jpeg" alt="" height="150px">
-    </div>
-    <p>Ari Yanuar<br>,S.PD<br>Ppkn</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.05 (1).jpeg" alt="" height="150px">
-    </div>
-    <p>Herlina Pratama<br>,S.PD<br>B.inggris</p>
-</div>
-<div class="wadah">
-    <div class="gambar1">
-    <img src="WhatsApp Image 2024-11-06 at 12.00.05.jpeg" alt="" height="150px">
-    </div>
-    <p>Arip,S.T<br>,M.KOM<br>B.inggris</p>
-</div>
-</div>
-</div>
-</div>
+  </div>
 </section>
-<section class="fasilitas-content" id="fasilitas">
-<div class="fasilitas">
-    <div class="ruangan">
-        <div class="text">
-        <h1>FASILITAS</h1>
-        <p>PPLG memiliki 1gedung rps dengan 4 lab.komputer dengan 1 gedung working space untuk Teaching Factory</p>
-        <img src="FOTO.jpeg" alt="" height="300px">
-        <img src="FOTO1.jpeg" alt="" height="350p">
+
+<!-- ============ FASILITAS ============ -->
+<section class="section bg-white" id="fasilitas">
+  <div class="wrap">
+    <div class="fasilitas-layout">
+      <div class="fasilitas-copy">
+        <h2>Fasilitas</h2>
+        <p>PPLG memiliki 1 gedung RPS dengan 4 laboratorium komputer, serta 1 gedung working space khusus untuk kegiatan Teaching Factory.</p>
+        <div class="fasilitas-stats">
+          <div><strong>4</strong><span>Lab Komputer</span></div>
+          <div><strong>1</strong><span>Gedung RPS</span></div>
+          <div><strong>1</strong><span>Working Space</span></div>
         </div>
+      </div>
+      <div class="fasilitas-gallery">
+        <img src="FOTO.jpeg" alt="Fasilitas PPLG 1" onerror="this.style.display='none'">
+        <img src="FOTO1.jpeg" alt="Fasilitas PPLG 2" onerror="this.style.display='none'">
+      </div>
     </div>
-</div>
+  </div>
 </section>
-<section class="kontak-content" id="kontak" >
-    <div class="kontak">
-        <div class="kontak1">
-        <h1>Hubungi Kami</h1>
-        <div class="bagian1">
-        <label for="name">Nama</label>
-        <input type="text" id="name" name="name"><br>
-        </div>
-        <div class="bagian2">
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email"><br>
-        </div>
-        <div class="bagian3">
-        <label for="messange">Pesan</label>
-        <input type="text" id="messange" name="pesan">
-        </div>
-        <div class="bagian4">
-        <button type="submit">Kirim</button>
-        </div>
-        </div>
-        <div class="follow">
-            <h1>Follow kami</h1>
-            <div class="sosial1">
-                <img src="3146788_youtube_logo_icon 1.png" alt="" height="40px">
-                <span>@smkn4tasikmalaya</span>
-            </div>
-            <div class="sosial2">
-                <img src="—Pngtree—facebook communication social media_8704815 1.png" alt="" height="40px" >
-                <span>@smkn4tasikmalaya</span>
-            </div>
-            <div class="sosial3">
-                <img src="—Pngtree—instagram social platform icon_8704818 1.png" alt="" height="40px">
-                <span>@smkn4tasikmalaya</span>
-            </div>
-        </div>
+
+<!-- ============ KONTAK ============ -->
+<section class="section bg-ink" id="kontak">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Hubungi Kami</h2>
+      <p>Ada pertanyaan seputar PPLG? Kirim pesan atau sapa kami lewat media sosial.</p>
     </div>
+    <div class="kontak-layout">
+      <form class="kontak-form" onsubmit="return false;">
+        <div class="field">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Nama lengkap">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com">
+        </div>
+        <div class="field">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" placeholder="Tulis pesan kamu di sini..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+
+      <div class="kontak-side">
+        <h3>Ikuti Kami</h3>
+        <ul class="social-list">
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2s-.21-1.5-.87-2.16c-.83-.87-1.76-.87-2.19-.92C15.4 4 12 4 12 4h-.01s-3.4 0-6.54.12c-.43.05-1.36.05-2.19.92-.66.66-.87 2.16-.87 2.16S2 8.94 2 10.68v1.63c0 1.74.19 3.48.19 3.48s.21 1.5.87 2.16c.83.87 1.92.84 2.41.94C7.2 19 12 19.04 12 19.04s3.4-.01 6.54-.13c.43-.05 1.36-.05 2.19-.92.66-.66.87-2.16.87-2.16s.19-1.74.19-3.48v-1.63c0-1.74-.19-3.48-.19-3.48zM9.75 14.85V8.85l5.75 3-5.75 3z"/></svg>
+            <span>@smkn4tasikmalaya</span>
+          </li>
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.5-3h-3V8.4c0-.87.24-1.46 1.49-1.46H16.5V4.35C16.22 4.31 15.27 4.23 14.16 4.23c-2.32 0-3.91 1.42-3.91 4.02v2.25H7.75v3h2.5V21h3.25z"/></svg>
+            <span>@smkn4tasikmalaya</span>
+          </li>
+          <li>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c2.7 0 3 .01 4.1.06 1 .05 1.5.21 1.86.35.47.18.8.4 1.15.75.35.35.57.68.75 1.15.14.36.3.86.35 1.86.05 1.1.06 1.4.06 4.1s-.01 3-.06 4.1c-.05 1-.21 1.5-.35 1.86-.18.47-.4.8-.75 1.15-.35.35-.68.57-1.15.75-.36.14-.86.3-1.86.35-1.1.05-1.4.06-4.1.06s-3-.01-4.1-.06c-1-.05-1.5-.21-1.86-.35-.47-.18-.8-.4-1.15-.75-.35-.35-.57-.68-.75-1.15-.14-.36-.3-.86-.35-1.86C2.7 15 2.7 14.7 2.7 12s.01-3 .06-4.1c.05-1 .21-1.5.35-1.86.18-.47.4-.8.75-1.15.35-.35.68-.57 1.15-.75.36-.14.86-.3 1.86-.35 1.1-.05 1.4-.06 4.1-.06zM12 0C9.28 0 8.94.01 7.87.07 6.8.12 6.07.29 5.43.54c-.67.26-1.24.6-1.8 1.17-.56.56-.91 1.13-1.17 1.8-.25.64-.42 1.37-.47 2.44C1.94 6.94 1.93 7.28 1.93 10s.01 3.06.06 4.13c.05 1.07.22 1.8.47 2.44.26.67.6 1.24 1.17 1.8.56.56 1.13.91 1.8 1.17.64.25 1.37.42 2.44.47C8.94 19.99 9.28 20 12 20s3.06-.01 4.13-.06c1.07-.05 1.8-.22 2.44-.47.67-.26 1.24-.6 1.8-1.17.56-.56.91-1.13 1.17-1.8.25-.64.42-1.37.47-2.44.05-1.07.06-1.41.06-4.13s-.01-3.06-.06-4.13c-.05-1.07-.22-1.8-.47-2.44-.26-.67-.6-1.24-1.17-1.8-.56-.56-1.13-.91-1.8-1.17-.64-.25-1.37-.42-2.44-.47C15.06.01 14.72 0 12 0z"/><path d="M12 4.87A5.13 5.13 0 1 0 17.13 10 5.13 5.13 0 0 0 12 4.87zm0 8.46A3.33 3.33 0 1 1 15.33 10 3.33 3.33 0 0 1 12 13.33zM17.34 4.6a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2z" transform="translate(0 2)"/></svg>
+            <span>@smkn4tasikmalaya</span>
+          </li>
+        </ul>
+        <div class="map-note">
+          <strong>SMKN 4 Tasikmalaya</strong>
+          Program Keahlian PPLG — Jawa Barat, Indonesia
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<footer class="footer">
+  © 2026 PPLG · SMKN 4 Tasikmalaya. Seluruh hak cipta dilindungi.
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
 </body>
 </html>
